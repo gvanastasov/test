@@ -2,8 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: "test"
-  tags:
-    - voca
+  tags: ['recommended', 'react']
 spec:
   type: service
   owner: user:guest
